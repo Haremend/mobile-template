@@ -4,8 +4,8 @@
       <van-icon
         v-if="showBack"
         name="arrow-left"
-        @click="handleBack"
         class="back-icon"
+        @click="handleBack"
       />
     </div>
     <div class="header-title">{{ title }}</div>

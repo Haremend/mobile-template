@@ -8,8 +8,8 @@
         v-if="showRetry"
         type="primary"
         size="small"
-        @click="handleRetry"
         class="retry-button"
+        @click="handleRetry"
       >
         重试
       </van-button>

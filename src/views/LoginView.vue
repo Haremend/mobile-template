@@ -7,7 +7,7 @@
         <div class="login-title">欢迎登录</div>
         <div class="login-subtitle">请输入您的账号密码</div>
 
-        <van-form @submit="onSubmit" class="form">
+        <van-form class="form" @submit="onSubmit">
           <van-field
             v-model="form.username"
             name="username"

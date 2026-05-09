@@ -4,7 +4,7 @@
 
     <div class="mine-content">
       <!-- 用户信息卡片 -->
-      <div class="user-card" v-if="userStore.isLoggedIn">
+      <div v-if="userStore.isLoggedIn" class="user-card">
         <div class="user-info">
           <van-image
             round

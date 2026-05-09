@@ -5,7 +5,7 @@
     <div class="home-content">
       <!-- 欢迎区域 -->
       <div class="welcome-section">
-        <div class="user-info" v-if="userStore.isLoggedIn">
+        <div v-if="userStore.isLoggedIn" class="user-info">
           <van-image
             round
             width="48px"
@@ -17,7 +17,7 @@
             <div class="user-desc">欢迎使用移动端应用</div>
           </div>
         </div>
-        <div class="guest-info" v-else>
+        <div v-else class="guest-info">
           <van-icon name="user-circle-o" size="48" color="#999" />
           <div class="guest-text">
             <div class="guest-title">未登录</div>
